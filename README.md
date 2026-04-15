@@ -101,6 +101,10 @@ Dataset Source: https://www.kaggle.com/datasets/grassknoted/asl-alphabet
 └── README.md
 ```
 
+## All the letters
+
+![All the ASL letters](all_letters.png)
+
 ---
 
 ## How to Run
