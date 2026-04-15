@@ -103,7 +103,7 @@ Dataset Source: https://www.kaggle.com/datasets/grassknoted/asl-alphabet
 
 ## All the letters
 
-![All the ASL letters](all_letters.png)
+![All the ASL letters](asl_letters.png)
 
 ---
 
