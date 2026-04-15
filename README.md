@@ -83,7 +83,14 @@ Output Layer (Softmax)
 * deep-translator
 * gTTS
 
----
+## Dataset
+
+This project uses the ASL Alphabet Dataset from Kaggle.
+
+Contains labeled images for 26 alphabets (A–Z) along with special classes like space, del, and nothing.
+Each class consists of multiple hand gesture images captured under varying conditions.
+
+Dataset Source: https://www.kaggle.com/datasets/grassknoted/asl-alphabet
 
 ## Project Structure
 
