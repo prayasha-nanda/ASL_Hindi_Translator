@@ -45,7 +45,11 @@ A real-time American Sign Language (ASL) recognition system that converts hand g
 
 ## Demonstration
 
-[Watch the demo video](prayasha-namaste-kehti-hai.mp4)
+**A preview of signing**
+![ASL signing of 'Prayasha'](assets/prayasha.gif)
+
+**Demo of how the text is converted to Hindi and played as an audio**
+[Watch the demo video](assets/demo_video.mp4)
 
 ## Model Architecture
 
@@ -97,16 +101,20 @@ Dataset Source: https://www.kaggle.com/datasets/grassknoted/asl-alphabet
 
 ## Project Structure
 
-```  
+```
+├── assets
+   ├── demo_video.mp4      # Demo to convert the signed sentence to Hindi and corresponding speech
+   └── prayasha.gif        # GIF of signing of author's name
 ├── app.py                                         # Streamlit app
-├── ASL_DL_classification model.ipynb              # Model training script
+├── ASL_DL_classification_model.ipynb              # Model training script
 ├── asl_model.keras                                # Trained model
+├── LICENSE
 └── README.md
 ```
 
 ## All the letters
 
-![All the ASL letters](asl_letters.png)
+![All the ASL letters](assets/asl_letters.png)
 
 ---
 
@@ -122,7 +130,7 @@ cd ASL_Hindi_Translator
 ### 2. Install dependencies
 
 ```bash
-!pip install streamlit opencv-python numpy tensorflow mediapipe deep-translator gTTS tqdm scikit-learn
+pip install streamlit opencv-python numpy tensorflow mediapipe deep-translator gTTS tqdm scikit-learn
 
 ```
 
