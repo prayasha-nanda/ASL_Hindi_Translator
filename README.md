@@ -1,6 +1,17 @@
 # ASL to Hindi Translator
+Real-time ASL gesture recognition system with speech output and Hindi translation. Built using MediaPipe + TensorFlow.
 
-A real-time American Sign Language (ASL) recognition system that converts hand gestures into English text, corrects sentence structure, translates it into Hindi, and generates speech output.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue"/>
+  <img src="https://img.shields.io/badge/TensorFlow-orange"/>
+  <img src="https://img.shields.io/badge/Streamlit-red"/>
+</p>
+
+## Demonstration
+
+[![Watch Demo](assets/prayasha.gif)](assets/demo_video.mp4)
+
+▶ Click the demo above to view the full video with audio. If playback doesn’t work in your browser, download the file to view it locally.
 
 ## Features
 
@@ -42,14 +53,6 @@ A real-time American Sign Language (ASL) recognition system that converts hand g
 7. **Speech Output**
 
    * Generate Hindi audio using gTTS
-
-## Demonstration
-
-**A preview of signing**
-![ASL signing of 'Prayasha'](assets/prayasha.gif)
-
-**Demo of how the text is converted to Hindi and played as an audio**
-[Watch the demo video](assets/demo_video.mp4)
 
 ## Model Architecture
 
@@ -103,8 +106,8 @@ Dataset Source: https://www.kaggle.com/datasets/grassknoted/asl-alphabet
 
 ```
 ├── assets
-   ├── demo_video.mp4      # Demo to convert the signed sentence to Hindi and corresponding speech
-   └── prayasha.gif        # GIF of signing of author's name
+│   ├── demo_video.mp4      # Demo: signed sentence to Hindi speech
+│   └── prayasha.gif        # GIF of author's signing
 ├── app.py                                         # Streamlit app
 ├── ASL_DL_classification_model.ipynb              # Model training script
 ├── asl_model.keras                                # Trained model
