@@ -45,7 +45,7 @@ A real-time American Sign Language (ASL) recognition system that converts hand g
 
 ## Demonstration
 
-![Watch the demo video](prayasha-namaste-kehti-hai.mp4)
+[Watch the demo video](prayasha-namaste-kehti-hai.mp4)
 
 ## Model Architecture
 
